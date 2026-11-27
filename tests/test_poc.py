@@ -52,7 +52,7 @@ class APITests(unittest.TestCase):
             self.assertEqual(client.cache_hits, 2)
             client.check()
             self.assertEqual(client.requests_made, 3)
-            self.assertNotIn("secretkey", "".join(p.read_text() for p in Path(temp).glob("*.json")))
+            self.assertNotIn("secretkey", "".join(p.read_text(encoding="utf-8") for p in Path(temp).glob("*.json")))
 
     def test_connection_error_redacts_key(self):
         session = Mock()
@@ -110,7 +110,7 @@ class WorkflowTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp, patch("requests.Session.get", side_effect=AssertionError("network forbidden")):
             output = Path(temp) / "demo"
             self.assertEqual(main(["demo", "--output", str(output)]), 0)
-            summary = json.loads((output / "summary.json").read_text())
+            summary = json.loads((output / "summary.json").read_text(encoding="utf-8"))
             self.assertEqual(summary["mode"], "demo_fictional")
             self.assertEqual(summary["requests_made"], 0)
             self.assertEqual(summary["automatic_match_rate"], 0.5)

@@ -1,0 +1,8 @@
+sample_id,category,retail_name,search_name,report_no,manufacturer,source_url,collected_at,notes
+V01,비타민·미네랄,고려은단 비타민C 1000 180정 x 1개 (6개월분) +쇼핑백,고려은단비타민C1000,,고려은단(주),https://www.gsshop.com/prd/prd.gs?lseq=400092&prdid=19026466,2026-11-27,제품정보 제품명·제조원 확인. 비타민C1000mg/1080mg 1정. 번호 미확인.
+V02,비타민·미네랄,속편한 고려은단 비타민C1000 120정 중성화비타민C,속편한 고려은단 비타민C1000,,고려은단 헬스케어(주),https://m.gsshop.com/prd/prd.gs?bnclick=prd-ttab_prdTtabV_apiBytedance-relatedEx&dseq=0&iid=2qzyFda-Fbkvk&ispre=Y&mseq=404757&prdid=68055043&rank=15&svcid=pc,2026-11-27,고시 제품명 사용. 상세명에는 중성비타민C 추가. 제조원 주소 해봉로244와 만해로165 병존. 1300mg 1정. 번호 미확인.
+P01,프로바이오틱스,[종근당건강] 락토핏 골드 3통(150일분) / 보장균수 40억 CFU,락토핏 골드,,종근당건강(주),https://m.gsshop.com/prd/prd.gs?prdid=21227155,2026-11-27,2g x50포 1일1포. 40억CFU 리뉴얼 버전 대조 필요. 번호 미확인.
+P02,프로바이오틱스,뉴트리원라이프 프로&프리 바이오틱스 1박스 1개월분 분말,프로&프리바이오틱스,,코스맥스엔비티(주),https://www.nutrione.co.kr/item/dtl/1000000816/myreview,2026-11-27,상세이미지 제품정보에서 제품명 직접확인. 판매원 뉴트리원. 5g 10억CFU FOS3000mg 아연8.5mg 판토텐산5mg. 번호 미확인.
+L01,루테인·눈,[종근당건강] 아이클리어 루테인지아잔틴 500mg*30캡슐,아이클리어 루테인지아잔틴,,종근당건강(주),https://m.ssg.com/item/itemView.ssg?itemId=1000262376845,2026-11-27,공식몰 접근403·표시사항 부족으로 SSG 같은 기본제품 선정. 500mg 1캡슐 루테인18.182mg 지아잔틴1.818mg. 번호 미확인.
+J01,관절·뼈,관절연골엔 튼튼한 리얼 MSM 30일분 맞춤 구독,관절연골엔 튼튼한 리얼 MSM,,㈜코스팜,https://www.mypuzzle.co.kr/product/productDtl/324,2026-11-27,마이퍼즐 공식 구독. 소분전 원제품 기준. 2정 MSM1500mg 망간3mg 비타민D5ug. 230511111은 광고심의번호. 품목제조번호 미확인.
+D01,체지방,뉴트리디데이 자기 전 2알 스페셜 올뉴 6+2,뉴트리 디-데이 다이어트 스페셜 올뉴,,(주)비오팜,https://m.gsshop.com/prd/prd.gs?prdid=17653254,2026-11-27,고시 제품명·제조원 사용. A++와 구분. 850mg x60정 1일2정. 번호 미확인. 신규API조회 전7개고정.
